@@ -38,13 +38,13 @@ const Contact = () => {
         ></iframe>
       </div>
 
-      <div className="container grid grid-cols-12 gap-10 mx-auto mt-15">
+      <div className="container grid grid-cols-12 gap-10 mx-auto mt-15 max-lg:grid-rows-2">
         {/* Right Side of the contact page */}
         <div
           data-aos="fade-left"
           data-aos-duration="300"
           data-aos-delay="200"
-          className="left col-span-5"
+          className="left col-span-5 max-lg:col-span-12"
         >
           <ul className="space-y-5">
             <li className="flex gap-5 items-center ">
@@ -91,7 +91,7 @@ const Contact = () => {
           data-aos="fade-right"
           data-aos-duration="300"
           data-aos-delay="200"
-          className="right col-span-7 grid grid-cols-12  gap-5"
+          className="right col-span-7 grid grid-cols-12  gap-5 max-lg:col-span-12"
         >
           <input
             type="text"

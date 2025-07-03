@@ -9,9 +9,9 @@ const Services = () => {
         {/* Adding the line in to the style */}
         <Line />
 
-        <div className="servicesCards grid grid-cols-12 grid-rows-2 place-items-center gap-5">
+        <div className="servicesCards grid grid-cols-12 grid-rows-2 place-items-center gap-5 max-lg:grid-rows-4">
           {/* Card1 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
             <i
               className="fas fa-heartbeat cardIconStyler"
             ></i>
@@ -22,7 +22,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card2 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
             <i className="fas fa-pills cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Eosle Commodi</h2>
             <p>
@@ -31,7 +31,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card3 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="300" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="300" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
             <i className="fas fa-hospital-user cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Ledo Markt</h2>
             <p>
@@ -40,7 +40,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card4 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="500" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="500" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
             <i className="fas fa-dna cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Asperiores Commodit</h2>
             <p>
@@ -49,7 +49,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card5 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="700" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="700" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
             <i className="fas fa-wheelchair cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Velit Doloremque</h2>
             <p>
@@ -58,7 +58,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card6 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="900" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="900" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
             <i className="fas fa-notes-medical cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Dolori Architecto</h2>
             <p>

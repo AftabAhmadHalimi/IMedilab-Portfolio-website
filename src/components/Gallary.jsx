@@ -12,35 +12,35 @@ import Gallery8 from './../assets/img/gallery/gallery-8.jpg'
 const Gallary = () => {
 
   return (
-    <> ې
+    <> 
     <div className="container-fluid text-center p-2">
     <h2 className='headers'>Gallery</h2>
     <Line/>
     <p className='my-10 text-base'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
 
         <div className="gallaryImages grid grid-cols-12 grid-rows-2 gap-1">
-            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden'>
+            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden max-lg:col-span-6 max-md:col-span-12'>
                 <img src={Gallery1} alt="Gallery images" className='h-full w-full transition-transform duration-500 transform hover:scale-110' />
             </div>
-            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden'>
+            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden max-lg:col-span-6 max-md:col-span-12'>
                 <img src={Gallery2} alt="Gallery images" className='h-full w-full transition-transform duration-500 transform hover:scale-110' />
             </div>
-            <div  data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden'>
+            <div  data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden max-lg:col-span-6 max-md:col-span-12'>
                 <img src={Gallery3} alt="Gallery images" className='h-full w-full transition-transform duration-500 transform hover:scale-110' />
             </div>
-            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden'>
+            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden max-lg:col-span-6 max-md:col-span-12'>
                 <img src={Gallery4} alt="Gallery images" className='h-full w-full transition-transform duration-500 transform hover:scale-110' />
             </div>
-            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden'>
+            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden max-lg:col-span-6 max-md:col-span-12'>
                 <img src={Gallery5} alt="Gallery images" className='h-full w-full transition-transform duration-500 transform hover:scale-110' />
             </div>
-            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden'>
+            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden max-lg:col-span-6 max-md:col-span-12'>
                 <img src={Gallery6} alt="Gallery images" className='h-full w-full transition-transform duration-500 transform hover:scale-110' />
             </div>
-            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden'>
+            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden max-lg:col-span-6 max-md:col-span-12'>
                 <img src={Gallery7} alt="Gallery images" className='h-full w-full transition-transform duration-500 transform hover:scale-110' />
             </div>
-            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden'>
+            <div data-aos="fade-up" data-aos-duration="300" className='col-span-3 overflow-hidden max-lg:col-span-6 max-md:col-span-12'>
                 <img src={Gallery8} alt="Gallery images" className='h-full w-full transition-transform duration-500 transform hover:scale-110' />
             </div>
 

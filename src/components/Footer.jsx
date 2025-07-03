@@ -2,8 +2,8 @@ const Footer = () => {
   return (
     <>
       <div  className="container-fluid mt-16 mx-auto py-10 bg-blue-100 ">
-        <div data-aos="zoom-out-up" className="container  mx-auto grid grid-cols-12 gap-10">
-          <div className="footerAbout col-span-4 flex flex-col gap-4 ">
+        <div data-aos="zoom-out-up" className="container  mx-auto grid grid-cols-12 gap-10 max-lg:gap-3 max-lg:text-center">
+          <div className="footerAbout col-span-4 flex flex-col gap-4  max-lg:col-span-12 max-lg:border-b max-lg:border-gray-400 max-lg:py-3">
             <h2 className="text-3xl text-[var(--primary)] font-bold">Medilab</h2>
             <p>
               A108 Adam Street
@@ -38,8 +38,8 @@ const Footer = () => {
             </div>
           </div>
           {/* Footer Useful links */}
-          <div className="footerUseful col-span-2">
-            <ul className="flex flex-col gap-2">
+          <div className="footerUseful col-span-2 max-lg:col-span-12 max-lg:border-b max-lg:border-gray-400 max-lg:py-3">
+            <ul className="flex flex-col gap-2 ">
               <li className="font-bold text-[var(--secondary)] text-lg">Useful Links </li>
               <li className=" hover:underline cursor-pointer hover:text-[var(--primary)]">Home </li>
               <li className=" hover:underline cursor-pointer hover:text-[var(--primary)]">About us </li>
@@ -49,8 +49,8 @@ const Footer = () => {
             </ul>
           </div>
           {/* Footer  Services */}
-          <div className="footerServices col-span-2">
-            <ul className="flex flex-col gap-2">
+          <div className="footerServices col-span-2 max-lg:col-span-12 max-lg:border-b max-lg:border-gray-400 max-lg:py-3">
+            <ul className="flex flex-col gap-2 ">
 
             <li className="font-bold text-[var(--secondary)] text-lg"> Our Services </li>
             <li className=" hover:underline cursor-pointer hover:text-[var(--primary)]"> Web Design </li>
@@ -61,8 +61,8 @@ const Footer = () => {
             </ul>
           </div>
           {/* Footer section 4 */}
-          <div className="footerAbout col-span-2">
-            <ul className="flex flex-col gap-2">
+          <div className="footerAbout col-span-2 max-lg:col-span-12 max-lg:border-b max-lg:border-gray-400 max-lg:py-3">
+            <ul className="flex flex-col gap-2 ">
 
             <li className="font-bold text-[var(--secondary)] text-lg "> Our Services </li>
             <li className=" hover:underline cursor-pointer hover:text-[var(--primary)]"> Web Design </li>
@@ -73,8 +73,8 @@ const Footer = () => {
             </ul>
           </div>
           {/* Footer section 5 */}
-          <div className="footerAbout col-span-2">
-            <ul className="flex flex-col gap-2">
+          <div className="footerAbout col-span-2 max-lg:col-span-12">
+            <ul className="flex flex-col gap-2 ">
             <li className="font-bold text-[var(--secondary)] text-lg"> Our Services </li>
             <li className=" hover:underline cursor-pointer hover:text-[var(--primary)]"> Web Design </li>
             <li className=" hover:underline cursor-pointer hover:text-[var(--primary)]"> Web Development </li>

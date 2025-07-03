@@ -18,7 +18,7 @@ const Doctors = () => {
         <div className="doctorsCard grid grid-cols-12 grid-rows-2 gap-5">
           {/* Card 1 */}
           <div data-aos="fade-right" data-aos-duration="200" data-aos-delay="100"
-            className="card1 col-span-6 w-full bg-white p-10 flex items-center justify-center gap-10 transition-transform ease-in-out delay-100 duration-300 transform hover:-translate-y-2"
+            className="card1 col-span-6 w-full bg-white p-10 flex items-center justify-center gap-10 transition-transform ease-in-out delay-100 duration-300 transform hover:-translate-y-2 max-lg:col-span-12"
             style={{ boxShadow: "0px 2px 15px rgba(0, 0, 0, 0.1)" }}
           >
             <img src={Doctor1} alt="" className="h-36 rounded-full" />
@@ -36,7 +36,7 @@ const Doctors = () => {
           </div>
           {/* Card 2 */}
           <div data-aos="fade-left" data-aos-duration="200" data-aos-delay="200"
-            className="card1 col-span-6 w-full bg-white  p-10 flex items-center justify-center gap-10 transition-all duration-300 transform hover:-translate-y-2 "
+            className="card1 col-span-6 w-full bg-white  p-10 flex items-center justify-center gap-10 transition-all duration-300 transform hover:-translate-y-2  max-lg:col-span-12"
             style={{ boxShadow: "0px 2px 15px rgba(0, 0, 0, 0.1)" }}
           >
             <img src={Doctor2} alt="" className="h-36 rounded-full" />
@@ -54,7 +54,7 @@ const Doctors = () => {
           </div>
           {/* Card 3 */}
           <div data-aos="fade-right" data-aos-duration="200" data-aos-delay="300"
-            className="card1 col-span-6 w-full bg-white  p-10 flex items-center justify-center gap-10 transition-all duration-300 transform hover:-translate-y-2 "
+            className="card1 col-span-6 w-full bg-white  p-10 flex items-center justify-center gap-10 transition-all duration-300 transform hover:-translate-y-2  max-lg:col-span-12"
             style={{ boxShadow: "0px 2px 15px rgba(0, 0, 0, 0.1)" }}
           >
             <img src={Doctor3} alt="" className="h-36 rounded-full" />
@@ -72,7 +72,7 @@ const Doctors = () => {
           </div>
           {/* Card 4 */}
           <div data-aos="fade-left" data-aos-duration="200" data-aos-delay="300"
-            className="card1 col-span-6 w-full bg-white  p-10 flex items-center justify-center gap-10 transition-all duration-300 transform hover:-translate-y-2 "
+            className="card1 col-span-6 w-full bg-white  p-10 flex items-center justify-center gap-10 transition-all duration-300 transform hover:-translate-y-2  max-lg:col-span-12"
             style={{ boxShadow: "0px 2px 15px rgba(0, 0, 0, 0.1)" }}
           >
             <img src={Doctor4} alt="" className="h-36 rounded-full" />
