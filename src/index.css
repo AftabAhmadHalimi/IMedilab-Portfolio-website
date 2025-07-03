@@ -1,0 +1,25 @@
+/* Importing the Tailwind css */
+@import "tailwindcss";
+
+:root{
+    --primary: #1977cc;
+    --secondary: #2c4964;
+    --bg-third: #f1f7fc;
+}
+
+/* Add a smooth animation to this while changing its background color */
+.cardIconStyler{
+    @apply text-5xl text-white bg-[var(--primary)] p-3 rounded  relative after:content-[''] after:absolute after:-left-2 after:-top-2  after:w-full after:h-full after:-z-[1]  after:rounded-[5px] transition-all ease-in-out after:transition-all after:ease-in-out after:bg-[var(--primary)] after:opacity-50 group-hover:text-[var(--primary)] group-hover:bg-white 
+    group-hover:after:opacity-30  
+
+}
+
+/* How to do this using tailwind css */
+.servicesCards .card:hover i::after{
+    background-color:  color-mix(in srgb, #ffffff, transparent 10%);
+}
+
+.headers{
+    @apply text-5xl text-[var(--secondary)]
+}
+
