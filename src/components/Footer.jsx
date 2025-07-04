@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <>
-      <div  className="container-fluid mt-16 mx-auto py-10 bg-blue-100 ">
-        <div data-aos="zoom-out-up" className="container  mx-auto grid grid-cols-12 gap-10 max-lg:gap-3 max-lg:text-center">
+      <div   className="container-fluid mt-16 mx-auto py-10 bg-blue-100 ">
+        <div data-aos="fade-up" data-aos-duration="500" className="container  mx-auto grid grid-cols-12 gap-10 max-lg:gap-3 max-lg:text-center">
           <div className="footerAbout col-span-4 flex flex-col gap-4  max-lg:col-span-12 max-lg:border-b max-lg:border-gray-400 max-lg:py-3">
             <h2 className="text-3xl text-[var(--primary)] font-bold">Medilab</h2>
             <p>
