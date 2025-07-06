@@ -4,5 +4,12 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // belo code is for vite network access
+  server:{
+    host: "0.0.0.0",
+    fs:{
+      strict: false,
+    }
+  },
   plugins: [react(), tailwindcss()],
 })

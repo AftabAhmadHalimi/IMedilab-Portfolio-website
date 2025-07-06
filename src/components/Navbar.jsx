@@ -32,6 +32,12 @@ const Navbar = () => {
             <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#">Contact</a></li>
             <li className='bg-[var(--primary)] p-3 rounded-full text-white'><a href='#'>Make an Appointment</a></li>
         </ul>
+        {/* Humburger icon */}
+        <div className="hum flex flex-col justify-center items-center gap-1 bg-gray-100 w-13 h-13 rounded-full text-center hover:bg-gray-300 cursor-pointer group xl:hidden">
+          <div className="line w-7 h-1.5 border-t transition-w transition-bg duration-500 group-hover:w-5"></div>
+          <div className="line w-7 h-1.5 border-t "></div>
+          <div className="line w-7 h-1.5 border-t transition-w transition-bg duration-500 group-hover:w-5"></div>
+        </div>
         </div>
       </nav>
     </>
