@@ -9,9 +9,9 @@ const Services = () => {
         {/* Adding the line in to the style */}
         <Line />
 
-        <div className="servicesCards grid grid-cols-12 grid-rows-2 place-items-center gap-5 max-lg:grid-rows-4">
+        <div className="servicesCards grid grid-cols-12 grid-rows-2 place-items-center gap-5 max-md:grid-cols-12">
           {/* Card1 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6 max-md:col-span-full">
             <i
               className="fas fa-heartbeat cardIconStyler"
             ></i>
@@ -22,7 +22,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card2 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6 max-md:col-span-full">
             <i className="fas fa-pills cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Eosle Commodi</h2>
             <p>
@@ -31,7 +31,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card3 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="300" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="300" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6 max-md:col-span-full">
             <i className="fas fa-hospital-user cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Ledo Markt</h2>
             <p>
@@ -40,7 +40,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card4 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="500" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="500" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6 max-md:col-span-full">
             <i className="fas fa-dna cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Asperiores Commodit</h2>
             <p>
@@ -49,7 +49,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card5 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="700" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="700" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6 max-md:col-span-full">
             <i className="fas fa-wheelchair cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Velit Doloremque</h2>
             <p>
@@ -58,7 +58,7 @@ const Services = () => {
             </p>
           </div>
           {/* Card6 */}
-          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="900" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6">
+          <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="900" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6 max-md:col-span-full">
             <i className="fas fa-notes-medical cardIconStyler"></i>
             <h2 className="py-5 text-2xl text-[var(--primary)] font-bold group-hover:text-white">Dolori Architecto</h2>
             <p>
@@ -76,18 +76,18 @@ const Services = () => {
             <p  data-aos="fade-up" data-aos-duration="300" data-aos-delay="300" className="mb-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
 
             <form  data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" className="">
-                <div className="grid grid-cols-12 grid-rows-2 gap-8">
-                 <input  type="text"  placeholder="Your text" className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13"/>
-                 <input  type="email"  placeholder="Your email" className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13"/>
-                 <input  type="number"  placeholder="Your number" className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13"/>
-                 <input  type="date"  placeholder="Your date"  className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13"/>
-                <select className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13">
+                <div className="grid grid-cols-12 grid-rows-2 gap-8 max-lg:gap-5">
+                 <input  type="text"  placeholder="Your text" className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13  max-md:col-span-6 max-sm:col-span-full "/>
+                 <input  type="email"  placeholder="Your email" className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13  max-md:col-span-6 max-sm:col-span-full "/>
+                 <input  type="number"  placeholder="Your number" className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13  max-md:col-span-6 max-sm:col-span-full "/>
+                 <input  type="date"  placeholder="Your date"  className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13  max-md:col-span-6 max-sm:col-span-full "/>
+                <select className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13 max-md:col-span-6 max-sm:col-span-full">
                     <option value="">Select Department</option>
                     <option value="">Department 1</option>
                     <option value="">Department 1</option>
                     <option value="">Department 1</option>
                 </select>
-                <select className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13">
+                <select className="col-span-4 w-full  border border-gray-400 focus:outline-[var(--primary)] px-2 rounded h-13 max-md:col-span-6 max-sm:col-span-full">
                     <option value="">Select Doctor</option>
                     <option value="">Doctor 1</option>
                     <option value="">Doctor 1</option>

@@ -96,12 +96,12 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your Name"
-            className="col-span-6 w-full p-2  border border-gray-300 focus:outline-[var(--primary)]"
+            className="col-span-6 w-full p-2  border border-gray-300 focus:outline-[var(--primary)] max-sm:col-span-full"
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="col-span-6 w-full p-2 border border-gray-300 focus:outline-[var(--primary)]"
+            className="col-span-6 w-full p-2 border border-gray-300 focus:outline-[var(--primary)] max-sm:col-span-full"
           />
           <input
             type="text"
