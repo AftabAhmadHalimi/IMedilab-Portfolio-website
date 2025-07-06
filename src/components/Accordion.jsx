@@ -6,7 +6,7 @@ const Accordion = ({ question, answer }) => {
       <div className="accordion border border-gray-300 bg-white p-4 my-3 rounded hover:bg-[var(--primary)]  group">
         <h2
           onClick={() => setShow(!show)}
-          className="text-xl text-[var(--primary)] font-bold flex justify-between items-center group-hover:text-white cursor-pointer"
+          className="text-xl text-[var(--primary)] font-bold flex justify-between items-center group-hover:text-white cursor-pointer max-sm:text-base"
         >
           {question}
           <i

@@ -38,7 +38,7 @@ const Contact = () => {
         ></iframe>
       </div>
 
-      <div className="container grid grid-cols-12 gap-10 mx-auto mt-15 max-lg:grid-rows-2">
+      <div className="container grid grid-cols-12 gap-10 mx-auto mt-15 max-lg:grid-rows-2 max-sm:px-5">
         {/* Right Side of the contact page */}
         <div
           data-aos="fade-left"

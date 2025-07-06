@@ -9,7 +9,7 @@ const Services = () => {
         {/* Adding the line in to the style */}
         <Line />
 
-        <div className="servicesCards grid grid-cols-12 grid-rows-2 place-items-center gap-5 max-md:grid-cols-12">
+        <div className="servicesCards grid grid-cols-12 grid-rows-2 place-items-center gap-5 max-md:grid-cols-12 max-sm:px-5">
           {/* Card1 */}
           <div data-aos="fade-up" data-aos-duration="200" data-aos-delay="100" className="card relative z-0 col-span-4 border border-gray-300 py-10 px-5 h-full hover:bg-[var(--primary)] hover:text-white group max-lg:col-span-6 max-md:col-span-full">
             <i
@@ -70,7 +70,7 @@ const Services = () => {
       </div>
 
       {/* Sub Services Appointment */}
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center max-sm:px-5">
             <h2 data-aos="fade-up" data-aos-duration="300" data-aos-delay="100" className="headers">Appointment</h2>
             <Line />
             <p  data-aos="fade-up" data-aos-duration="300" data-aos-delay="300" className="mb-10">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>

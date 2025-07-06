@@ -3,8 +3,8 @@ import HeroImg from './../assets/img/hero-bg.jpg'
 const Hero = () => {
   return (
     <>
-    <div  className="hero h-screen bg-no-repeat bg-center bg-cover flex justify-center items-center max-lg:h-fit" style={{backgroundImage: `url(${HeroImg})`}}>
-      <div className="container">
+    <div  className="hero h-screen bg-no-repeat bg-center bg-cover flex justify-center items-center max-lg:h-fit max-lg:py-10" style={{backgroundImage: `url(${HeroImg})`}}>
+      <div className="container max-sm:px-5">
         <h1 data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" className='text-[var(--secondary)] font-extrabold text-7xl uppercase max-lg:text-4xl max-sm:text-3xl max-sm:text-center max-sm:my-5'>Welcome to medilab</h1>
         <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" className='my-7 text-2xl max-sm:hidden'>We are team of talented designers making websites with React + TailwindCss</p>
         <div className="HeroCards grid grid-cols-12 items-center gap-7 max-lg:items-start max-sm:gap-3">
