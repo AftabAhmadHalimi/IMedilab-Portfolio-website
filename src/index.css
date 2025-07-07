@@ -7,6 +7,12 @@
     --bg-third: #f1f7fc;
 }
 
+/* applying the smooth transition for schrool */
+html{
+    scroll-behavior: smooth;
+}
+
+
 /* Add a smooth animation to this while changing its background color */
 .cardIconStyler{
     @apply text-5xl text-white bg-[var(--primary)] p-3 rounded  relative after:content-[''] after:absolute after:-left-2 after:-top-2  after:w-full after:h-full after:-z-[1]  after:rounded-[5px] transition-all ease-in-out after:transition-all after:ease-in-out after:bg-[var(--primary)] after:opacity-50 group-hover:text-[var(--primary)] group-hover:bg-white 

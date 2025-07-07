@@ -13,7 +13,7 @@ const Gallary = () => {
 
   return (
     <> 
-    <div className="container-fluid text-center p-2">
+    <div id='department' className="container-fluid text-center p-2">
     <h2 className='headers'>Gallery</h2>
     <Line/>
     <p className='my-10 text-base'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>

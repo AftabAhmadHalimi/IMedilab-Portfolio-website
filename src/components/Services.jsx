@@ -4,7 +4,7 @@ import Line from "./Line";
 const Services = () => {
   return (
     <>
-      <div className="container mx-auto my-16 text-center">
+      <div id="services" className="container mx-auto my-16 text-center">
         <h2 data-aos="fade-up" className="headers">Services</h2>
         {/* Adding the line in to the style */}
         <Line />

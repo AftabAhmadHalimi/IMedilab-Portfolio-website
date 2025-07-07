@@ -2,7 +2,7 @@ import aboutImg from './../assets/img/about.jpg';
 const About = () => {
   return (
     <>
-      <div className="container mx-auto my-20 grid grid-cols-12 gap-10  max-lg:gap-2 max-md:gap-5 max-sm:px-5">
+      <div id='about' className="container mx-auto my-20 grid grid-cols-12 gap-10  max-lg:gap-2 max-md:gap-5 max-sm:px-5">
 
         <img data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" src={aboutImg} alt="Doctors Image" className='img-fluid col-span-6 bg-no-repeat bg-cover  w-[100vw] max-lg:col-span-12' />
 

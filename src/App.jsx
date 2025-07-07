@@ -10,10 +10,12 @@ import Footer from "./components/Footer";
 import FaqSection from "./components/FaqSection";
 import Contact from "./components/Contact";
 import Loader from "./components/Loader";
+import UserContext from './context/UserContext';
 
 // ّImporting the AOS animation
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MinNavbar from "./components/MinNavbar";
 
 const App = () => {
   const [load, setLoad] = useState(true);
@@ -56,6 +58,8 @@ const App = () => {
       ) : (
         <>
           <div className="overflow-hidden">
+        <UserContext>
+            <MinNavbar/>
             <Header />
             <Navbar />
             <Hero />
@@ -66,6 +70,7 @@ const App = () => {
             <Gallary />
             <Contact />
             <Footer />
+        </UserContext>
           </div>
         </>
       )}

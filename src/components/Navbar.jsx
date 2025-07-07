@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import CreateContext from '../context/CreateContext'
 
 const Navbar = () => {
+  const {resNavbarShow} = useContext(CreateContext);
   return (
     <>
       {/*Navbar  */}
-      <nav className='bg-white flex justify-center items-center p-4 sticky top-0 z-[999]'>
+      <nav className='bg-white flex justify-center items-center p-4 sticky top-0 z-40'>
         <div className="container flex justify-between items-center">
 
         <div className="logo font-bold text-[var(--secondary)] text-4xl">Medilab</div>
@@ -33,10 +35,10 @@ const Navbar = () => {
             <li className='bg-[var(--primary)] p-3 rounded-full text-white'><a href='#'>Make an Appointment</a></li>
         </ul>
         {/* Humburger icon */}
-        <div className="hum flex flex-col justify-center items-center gap-1 bg-gray-100 w-13 h-13 rounded-full text-center hover:bg-gray-300 cursor-pointer group xl:hidden">
-          <div className="line w-7 h-1.5 border-t transition-w transition-bg duration-500 group-hover:w-5"></div>
-          <div className="line w-7 h-1.5 border-t "></div>
-          <div className="line w-7 h-1.5 border-t transition-w transition-bg duration-500 group-hover:w-5"></div>
+        <div onClick={resNavbarShow} className="hum flex flex-col justify-center items-center gap-1 bg-gray-100 w-13 h-13 rounded-full text-center hover:bg-gray-300 cursor-pointer group xl:hidden">
+          <div className="line w-7 h-1.5 border-t-[3px] border-[var(--secondary)] transition-w transition-bg duration-500 group-hover:w-5"></div>
+          <div className="line w-7 h-1.5 border-t-[3px] border-[var(--secondary)] "></div>
+          <div className="line w-7 h-1.5 border-t-[3px] border-[var(--secondary)] transition-w transition-bg duration-500 group-hover:w-5"></div>
         </div>
         </div>
       </nav>

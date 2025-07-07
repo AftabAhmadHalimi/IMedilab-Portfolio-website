@@ -4,7 +4,7 @@ import Line from "./Line";
 const Contact = () => {
   return (
     <>
-      <h2
+      <h2 id="contact"
         data-aos="fade-up"
         data-aos-duration="100"
         className="headers text-center my-14"

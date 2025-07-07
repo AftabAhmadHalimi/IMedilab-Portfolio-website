@@ -8,7 +8,7 @@ import Doctor4 from "./../assets/img/doctors/doctors-4.jpg";
 const Doctors = () => {
   return (
     <>
-      <div className="container my-16 mx-auto max-sm:px-5">
+      <div id="doctors" className="container my-16 mx-auto max-sm:px-5">
         <h2 data-aos="fade-up" data-aos-duration="100" className="headers text-center">Doctos</h2>
         <Line />
         <p data-aos="fade-up" data-aos-duration="200" data-aos-delay="200" className="mb-20 text-center">
