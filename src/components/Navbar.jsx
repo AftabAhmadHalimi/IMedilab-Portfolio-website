@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       {/*Navbar  */}
-      <nav className='bg-white flex justify-center items-center p-4 sticky top-0 z-40'>
+      <nav className='bg-white flex justify-center items-center p-4 sticky top-0 z-40 shadow'>
         <div className="container flex justify-between items-center">
 
         <div className="logo font-bold text-[var(--secondary)] text-4xl">Medilab</div>

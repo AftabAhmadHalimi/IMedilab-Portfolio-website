@@ -63,7 +63,7 @@ const App = () => {
             <Header />
             <Navbar />
             <Hero />
-            <About />
+            <About /> 
             <Services />
             <Doctors />
             <FaqSection />
