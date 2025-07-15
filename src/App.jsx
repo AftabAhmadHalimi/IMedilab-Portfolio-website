@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -10,7 +10,8 @@ import Footer from "./components/Footer";
 import FaqSection from "./components/FaqSection";
 import Contact from "./components/Contact";
 import Loader from "./components/Loader";
-import UserContext from './context/UserContext';
+import CreateContext from "./context/CreateContext";
+
 
 // ّImporting the AOS animation
 import AOS from "aos";
@@ -19,13 +20,30 @@ import MinNavbar from "./components/MinNavbar";
 
 const App = () => {
   const [load, setLoad] = useState(true);
-
+  const {show} = useContext(CreateContext);
   useEffect(() => {
     AOS.init({ once: true }); // Init AOS (global options)
     setTimeout(() => {
       setLoad(false);
     }, 3000);
   }, []);
+
+
+
+  // Code while the popup is open to lock the scrool
+  useEffect(() => {
+    if (show) {
+      document.body.style.overflow = "hidden"; // stop body scroll
+    } else {
+      document.body.style.overflow = "auto"; // allow body scroll again
+    }
+
+    // Cleanup when component unmounts
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [show]);
+
 
   // ++++++++++++++ If you want to add the loader for production so use the below useEffect else the above +++++++++++
   // useEffect(() => {
@@ -58,7 +76,6 @@ const App = () => {
       ) : (
         <>
           <div className="overflow-hidden">
-        <UserContext>
             <MinNavbar/>
             <Header />
             <Navbar />
@@ -70,7 +87,6 @@ const App = () => {
             <Gallary />
             <Contact />
             <Footer />
-        </UserContext>
           </div>
         </>
       )}
