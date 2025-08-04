@@ -12,4 +12,5 @@ export default defineConfig({
     }
   },
   plugins: [react(), tailwindcss()],
+  base: '/IMedilab-Portfolio-website/', // Set the base path for the project
 })
