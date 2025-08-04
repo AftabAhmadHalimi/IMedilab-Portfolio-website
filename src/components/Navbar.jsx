@@ -11,11 +11,11 @@ const Navbar = () => {
 
         <div className="logo font-bold text-[var(--secondary)] text-4xl">Medilab</div>
         <ul className='flex items-center space-x-10 mr-15 max-xl:hidden'>
-            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#">Home</a></li>
-            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#">About</a></li>
-            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#">Services</a></li>
-            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#">Departments</a></li>
-            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#">Doctors</a></li>
+            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#home">Home</a></li>
+            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#about">About</a></li>
+            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#services">Services</a></li>
+            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#departments">Departments</a></li>
+            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#doctors">Doctors</a></li>
             {/* When you finished the project create a dropdown */}
             <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)] group"><a href="#">Dropdown</a>
             
@@ -31,7 +31,7 @@ const Navbar = () => {
 
             </li>
 
-            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#">Contact</a></li>
+            <li className="relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-[var(--primary)] after:transition-all after:duration-300 hover:text-[var(--primary)]"><a href="#contact">Contact</a></li>
             <li className='bg-[var(--primary)] p-3 rounded-full text-white'><a href='#'>Make an Appointment</a></li>
         </ul>
         {/* Humburger icon */}
